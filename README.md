@@ -4,6 +4,10 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Mobile<!-- omit in toc -->
 
+### Default state
+
+![mobile default state](design/final-mobile-default-state.png)
+
 ## Desktop<!-- omit in toc -->
 
 ### Error - Invalid<!-- omit in toc -->
