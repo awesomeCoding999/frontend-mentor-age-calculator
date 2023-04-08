@@ -72,8 +72,24 @@ input[type="number"]::placeholder {
 }
 
 .icon-divider {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 3rem;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: var(--light-grey);
+}
+
+.calculator-btn {
+  position: relative;
+  top: -30px;
+  left: 40%;
+  width: 64px;
+  height: 64px;
+  background: var(--purple);
+  border-radius: 216px;
+  border: none;
 }
 
 .results-text {
@@ -96,4 +112,18 @@ footer {
 }
 
 @media (min-width: 90em) {
+  .age-calculator {
+    width: 840px;
+    padding: 56px;
+  }
+
+  input[type="number"] {
+    width: 160px;
+    height: 72px;
+    font-size: 32px;
+  }
+
+  input[type="number"]::placeholder {
+    font-size: 32px;
+  }
 }
